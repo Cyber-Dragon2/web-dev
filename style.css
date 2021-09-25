@@ -1,0 +1,15 @@
+body{
+    background-color: antiquewhite
+}
+
+h1{
+    color: rgb(64, 200, 64);
+}
+
+h1:hover{
+    color: black;
+}
+
+p{
+    color: rgb(58, 248, 216);
+}
