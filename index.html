@@ -1,14 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <title>Dynamic Coders</title>
 </head>
+
 <body>
-    <h1>Welcome to Dynamic Coders</h1>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, iure! Iure voluptate enim voluptatum perspiciatis saepe qui assumenda excepturi sunt quia animi recusandae, dignissimos dolorum fugit alias laudantium eos odio fuga voluptates laborum. Unde non corporis laboriosam culpa placeat eveniet amet at perspiciatis rerum dolorem? Laudantium minima maiores perspiciatis ullam!</p>
+    <div>
+        <h1>Welcome to Dynamic Coders </h1>
+    </div>
+    <!-- calculator -->
+    <div class="calculator">
+
+        <!-- display -->
+        <input type="text" class="display" disabled>
+        <!-- keys -->
+        <div class="keys">
+
+            <!-- 4 rows of keys -->
+            <div class="row">
+                <button value="7">7</button>
+                <button value="8">8</button>
+                <button value="9">9</button>
+                <button value="+" class="operator">+</button>
+            </div>
+            <div class="row">
+                <button value="4">4</button>
+                <button value="5">5</button>
+                <button value="6">6</button>
+                <button value="-" class="operator">-</button>
+            </div>
+            <div class="row">
+                <button value="1">1</button>
+                <button value="2">2</button>
+                <button value="3">3</button>
+                <button value="*" class="operator">X</button>
+            </div>
+            <div class="row">
+                <button value="C" class="operator">C</button>
+                <button value="0">0</button>
+                <button value="/" class="operator">/</button>
+                <button value="=" class="operator">=</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- calculator body ends -->
+    <script src="script.js"></script>
 </body>
+
 </html>
