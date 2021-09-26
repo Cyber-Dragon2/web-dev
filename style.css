@@ -19,9 +19,10 @@ body {
 
 div h1{
     color: rgb(64, 200, 64);
+    /* width: 50%; */
     position: absolute;
     /* transform: translateY(-600%); */
-    transform:translate(-90px,-250px);
+    transform:translate(0px,-280px);
     word-break: break-all;
     transition: 1s;
     /* width: min-content; */
