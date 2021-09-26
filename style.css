@@ -27,6 +27,16 @@ div h1{
     transition: 1s;
     /* width: min-content; */
 }
+div h6{
+    color: rgb(0, 0, 0);
+    /* width: 50%; */
+    position: absolute;
+    /* transform: translateY(-600%); */
+    transform:translate(0px,-180px);
+    word-break: break-all;
+    transition: 1s;
+    /* width: min-content; */
+}
 
 div h1:hover{
     color: black;
